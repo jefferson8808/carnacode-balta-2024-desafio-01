@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.bg-fundo{
+    background-color: #2E1462;
+}
+
+.container-splash{
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.block-img{
+    width: 135px;
+    height: 135px;
+    border-radius: 35px;
+    border: 5px solid #45FEFE;
+    background-color: white;
+}
+
+.block-img img{
+    width: 70%;
+    border-radius: 20px;
+    margin: 20px 0px 0px 20px;
+}

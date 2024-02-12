@@ -1,26 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/app.css">
-    <title>IMC</title>
+    <title>IMC</title> 
+    <link rel="stylesheet" href="./css/home.css">
 </head>
-
 <body>
-    <div>ITEM 1</div>
-    <div class="flex flex-column">
-        <div>ITEM 2.1</div>
-        <div>ITEM 2.2</div>
-        <div>ITEM 2.3</div>
-    </div>
-    <div>
-        <input class="input" type="text" />
-    </div>
-    <div>ITEM 4</div>
-    <div>ITEM 5</div>
-    <div>ITEM 6</div>
-</body>
+    <div class="container center flex flex-colum padding5">
+        <div class="text-center header-top"> 
+            <h2>Cálculo de IMC</h2>
+        </div>
 
+        <div class="width100 ">
+            <form accept="#" method="post" class="input-position">
+                <div class="block-input">
+                    <div class="">
+                        <input name="altura" type="text" placeholder="Altura"/>
+                    </div>
+                    
+                    
+                    <div class="">
+                        <input name="peso" type="text" placeholder="Peso"/>
+                    </div>
+    
+                    
+                    <div class="">
+                        <input name="sexo" type="text" value="" placeholder="Sexo"/>
+                    </div>    
+                </div>
+                
+                <div class="block-checkbox">
+                    <input type="checkbox" name="maisIdade" id="idade">
+                    <label for="maisidade">Eu tenho 65 anos ou mais</label>
+                </div>
+
+                <div class="block-button ">
+                    <button class="width100 bg-aqua" type="button"><b>Cálcular meu IMC</b></button>
+        
+                </div>
+
+                <div class="block-button">
+                    <button class="width100 bg-white" type="button"><b>Entenda o cálculo</b></button>
+        
+                </div>
+            </form>
+        </div>
+
+
+
+    </div>
+</body>
 </html>
